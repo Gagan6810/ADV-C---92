@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <h2 id = "player1_name"> </h2> <span id = "player1_score"></span>
+        <br>
+        <h2 id = "player2_name"> </h2> <span id = "player2_score"></span>
+
+        <div class = "container" id = "output">
+            
+                <h1> THE MATH QUIZ GAME! </h1>
+                <br>
+                <h2 id = "h3_label_p1">  </h2><span id = "player_ans_label"></span>
+                <br>
+                <h3 id = "h3_label_p2">  </h3><span id = "player_question_label"></span>
+            
+                <div id = "math" class = "container">
+                
+                </div>
+                <center>
+                    <h3> Number 1 </h3>
+                    <input type="text" placeholder="Number 1" id="number1_input" class = "form-control">
+                    <br>
+                    <h3> Number 2 </h3>
+                    <input type="text" placeholder="Number 2" id="number2_input" class = "form-control">
+                    <br>
+                    <button onclick = "send()" class = "btn btn-success" style="width:30%"> Send </button>
+                </center>
+        </div>
+        <script src="main2.js" async defer></script>
+    </body>
+</html>
